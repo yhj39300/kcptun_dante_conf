@@ -12,7 +12,7 @@ Kcptun + Dante 高速socks5代理服务器
 
 ## 部署
 
-#### Debian部署Dante
+### Debian部署Dante
 
 从源安装dante
 
@@ -35,7 +35,7 @@ cp danted.conf /etc
 
 
 
-#### Debian部署Kcptun server
+### Debian部署Kcptun server
 
 根据VPS的CPU架构到其官方[github](https://github.com/xtaci/kcptun/releases)仓库下载对应的二进制文件
 
@@ -51,7 +51,7 @@ mv server_linux_amd64 /usr/local/bin/kcptun
 
 
 
-#### OSX部署Kcptun client
+### OSX部署Kcptun client
 
 到官方github仓库下载darwin 架构的二进制文件
 
