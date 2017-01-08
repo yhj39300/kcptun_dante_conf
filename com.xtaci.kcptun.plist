@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.xtaci.kcptun.plist</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/kcptun</string>
+        <string>-r</string>
+        <string>server_ip:1755</string>
+        <string>-crypt</string>
+        <string>salsa20</string>
+        <string>-mode</string>
+        <string>fast2</string>
+        <string>-mtu</string>
+        <string>1400</string>
+        <string>-sndwnd</string>
+        <string>256</string>
+        <string>-rcvwnd</string>
+        <string>2048</string>
+    </array>
+    <key>KeepAlive</key>
+    <false/>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/dev/null</string>
+    <key>StandardOutPath</key>
+    <string>/dev/null</string>
+</dict>
+</plist>
